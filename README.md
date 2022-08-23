@@ -1,3 +1,11 @@
+<p>
+  src\components\Slideshows\testSlideshow.js -> le component pour le slideshow que je voulais créer, mais mon dataset est à undefined quand je suis sur l'index (vérifier avec des console.log())
+  
+  ultimement je voudrais créer une méthode dans utility qui va chercher les photos et qui est caller dans les components pour les initialiser
+  
+  
+</p>
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
