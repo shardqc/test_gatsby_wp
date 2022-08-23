@@ -3,6 +3,7 @@ import { Container,Link } from "@chakra-ui/react";
 import addImageUriToSlideShow from  './utility'
 import { Link as GatsbyLink,GatsbyImage,StaticImage, useStaticQuery,graphql } from "gatsby";
 
+//devrait retourner les uri de mes photos mais 
 export const queryTest =  graphql`
 {
 
@@ -17,7 +18,7 @@ export const queryTest =  graphql`
 
 
 
- const testSlideshow =[]; 
+ const testSlideshow =queryTest; 
 /*uriArray.forEach(element => {
     addImageUriToSlideShow(testSlideshow,element.uri);
     

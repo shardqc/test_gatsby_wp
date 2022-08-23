@@ -5,7 +5,7 @@ import Slideshow from "../components/slideshow"
 import {testSlideshow,queryTest} from "../components/Slideshows/testSlideshow"
 
 console.log(testSlideshow);
-console.log(queryTest);
+//console.log(queryTest);
 //console.log(getDataImage);
 // markup
 const IndexPage = () => {
@@ -27,9 +27,10 @@ const query = useStaticQuery( graphql`
 }
 `);
   const {allWpPost} = query;
+  //même query que fais dans utility mais retourne qqch
   const{allWpMediaItem} = query;
   //console.log(query);
-  console.log(allWpMediaItem.nodes[0].uri);
+  //console.log(allWpMediaItem.nodes[0].uri);
   //console.log(typeof(allWpMediaItem.nodes))
 
   return (
